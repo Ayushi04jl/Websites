@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifInter, sans-serif;
+}
+body{
+    width:100%;
+    background-color: rgb(22,24,31);
+    position: relative;
+}
+header{
+    margin:0;
+    padding:16px 0 12px 0;
+    position: fixed;
+    margin-top: 1%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(22,24,31);
+    z-index: 400;
+
+}
+.hotstar-logo{
+    height:40px;
+    margin-top: 0%;
+    margin-left: 3%;
+}
+.nav-bar{
+    background-color: rgb(22,24,31);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left:3%;
+    padding:16px 0 12px 0;
+    line-height: 10px;
+    margin-top: 90%;
+    margin-bottom: 10%;
+}
+.nav-icon {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    height: 3px;
+    margin-top: 40%;
+}
+.nav-items{
+    color: whitesmoke;
+    text-align: left;
+    font-weight: 400;
+    position: relative;
+    left:40px;
+    bottom:15px;
+    z-index: 1000;
+    visibility: hidden;
+
+}
+.nav-items:hover{
+    visibility: visible;
+}
+main{
+    background-color: rgb(22,24,31);
+    margin: left 30%;
+}
+.banner{
+    background-color: rgb(22,24,31);
+}
+.banner-1{
+    width: 40%;
+    height:36vh;
+    background-color:rgb(22,24,31) ;
+    position: relative;
+    bottom:7px;
+    margin-left: 8%;
+}
+.banner-2{
+    width:100%;
+    background-color: rgb(22,24,31);
+    position: relative;
+    bottom:30px;
+    top:10%;
+    margin-left:8%;
+    margin-top: 2%;
+}
+
